@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">STT</string>
+    <string name="listening">listening...</string>
+    <string name="recognized">Recognizing Completed </string>
+</resources>

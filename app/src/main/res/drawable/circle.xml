@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/mic"
+        />
+    <item
+        android:state_pressed="true"
+        >
+        <shape android:shape="oval">
+            <solid android:color="#BDFFFFFF"/>
+            <size android:height="120dp" android:width="120dp"/>
+
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="oval">
+        <solid android:color="#943C3939"/>
+        <size android:height="120dp" android:width="120dp"/>
+        </shape>
+
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#BDFFFFFF"/>
+            <size android:height="120dp" android:width="120dp"/>
+            <gradient android:angle="45" android:startColor="#F8E6E6"
+                android:endColor="#EDFFFFFF"/>
+            <stroke android:width="0.5dp" android:color="#000000" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/mic"
+        />
+
+</layer-list>
